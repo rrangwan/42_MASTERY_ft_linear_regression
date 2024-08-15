@@ -1,0 +1,19 @@
+python3 -m venv env
+
+
+source env/bin/activate
+pip3 install -r requirements.txt
+
+
+python3 A_estimate_price.py
+
+python3 B_linear_regression.py
+
+python3 C_bonus.py
+
+
+
+deactivate
+rm -rf env
+
+
