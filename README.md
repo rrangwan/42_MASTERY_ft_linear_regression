@@ -1,5 +1,7 @@
 # 42_MASTERY_ft_linear_regression
-This project takes a simple CSV table of mileage and price data for used cars and produces:<br>
+This project uses Python to create a regression model, using gradient descent to find optimized the solutions. <br>
+This project is an introduction to Machine Learning with Python. <br>
+In our example, a CSV table of mileage and price data for used cars is used to produces:<br>
 A. Estimated price of a used car based on the model: Theta0 + (mileage)*Theta1<br>
 B. Iteratively calculates Theta0 and Theta1 values using gradient descent<br>
 C. Produces graphs to depict the data and regression model<br><br>
