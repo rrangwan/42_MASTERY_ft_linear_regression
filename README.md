@@ -9,9 +9,16 @@ python3 -m venv env <br>
 source env/bin/activate <br>
 pip3 install -r requirements.txt <br><br>
 
-python3 A_estimate_price.py <br>
-python3 B_linear_regression.py <br>
-python3 C_bonus.py <br><br>
+./python3 A_estimate_price.py <br>
+(The regression model is run, initially the result is 0 because, the thetas need to be calibrated.)
+<br>
+
+./python3 B_linear_regression.py <br>
+(Theta0 and Theta1 which are intercept and coefficient respectively of the regression model, are set by this program interatively using the gradient descent model.)<br>
+
+./python3 C_bonus.py <br>
+(Scatter graph of the data and the regression line are plotted.)
+<br><br>
 
 deactivate<br>
 rm -rf env
